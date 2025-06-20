@@ -1,0 +1,33 @@
+udp:
+  # Processed data is sent from PC B (server) back to PC A (client/Unity)
+  client_ip: "192.168.0.0"   # IP address of PC A
+  port: 8051
+
+camera:
+  # (For the frame sender, we use a low resolution to reduce latency)
+  index: 0
+  resolution:
+    width: 1920
+    height: 1080
+
+network:
+  # For frame transmission from PC A (client) to PC B (server)
+  server_ip: "192.168.0.0"   # IP address of PC B (processing server)
+  frame_port: 9000           # UDP port for sending frames
+
+calibration:
+  # Destination points in the target coordinate system (e.g., Unity or projector)
+  dst_points:
+    - [0, 0]
+    - [1280, 0]
+    - [1280, 800]
+    - [0, 800]
+
+aruco:
+  dictionary: DICT_4X4_50
+
+logging:
+  level: DEBUG
+
+smoothing:
+  alpha: 0.2
