@@ -23,7 +23,7 @@ hedonic quality. This work shows that all investigated display types
 are feasible for educational use in specific contexts, each showing
 several tradeoffs.
 
-Links: [Paper (probably not available yet)](https://doi.org/10.1145/3713043.3728864)
+Links: [Paper](https://doi.org/10.1145/3713043.3728864)
 
 ## Overview
 * **Hardware** contains all files required to 3D print all components of the ProLamp and a manual for construction.
